@@ -19,4 +19,11 @@
 .li{
     color: white;
     list-style: none;
+    cursor: pointer;
+    height: 100%;
+}
+
+.li:hover{
+    color: black;
+    font-weight: 500;
 }

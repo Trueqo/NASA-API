@@ -24,7 +24,7 @@ const Card = () => {
       data.map(item => (
         <div className={css.card} >
           <img className={css.image} src={item.img_src} alt="" />
-          <div className={css.container}>
+          <div className={css.info}>
             <h4><b>John Doe</b></h4>
             <p>Architect & Engineer</p>
           </div>

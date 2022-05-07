@@ -1,11 +1,11 @@
 import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import { Route, Routes } from "react-router-dom";
 import Home from './views/Home/Home'
 import Navbar from './components/Navbar/Navbar'
+import Apod from './views/Home/Apod/Apod';
 function App() {
   
 
@@ -15,6 +15,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/apod' element={<Apod/>}/>
       </Routes>
       <Footer/>
     </div>

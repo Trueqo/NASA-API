@@ -1,0 +1,7 @@
+.apod{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}

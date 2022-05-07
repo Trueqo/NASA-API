@@ -1,0 +1,10 @@
+.containercard{
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

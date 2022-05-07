@@ -1,7 +1,7 @@
 .Footer{
     width: 100%;
     height: 5rem;
-    background-color: cadetblue;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,11 @@
 
 .text{
     color: white;
-    font-size: 3rem;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.nasaLogo{
+    width: 8rem;
+    height: auto;
 }
