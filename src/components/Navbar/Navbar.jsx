@@ -1,14 +1,19 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import css from './Navbar.module.css'
 const Navbar = () => {
   return (
     <div className={css.navbar}>
-        <ul className={css.ul}>
-            <li className={css.li}>Rovers</li>
-            <li className={css.li}>Exoplanet</li>
-            <li className={css.li}>APOD</li>
-            <li className={css.li}>EPIC</li>
-        </ul>
+      <ul className={css.ul}>
+        <Link to={'/'}>
+          <li className={css.li}>Rovers</li>
+        </Link>
+        <li className={css.li}>Exoplanet</li>
+        <Link to={'/apod'}>
+          <li className={css.li}>APOD</li>
+        </Link>
+        <li className={css.li}>EPIC</li>
+      </ul>
     </div>
   )
 }

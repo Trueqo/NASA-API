@@ -21,9 +21,12 @@
     list-style: none;
     cursor: pointer;
     height: 100%;
+    font-weight: 400;
 }
 
 .li:hover{
     color: black;
-    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
 }

@@ -5,7 +5,8 @@ import Footer from './components/Footer/Footer'
 import { Route, Routes } from "react-router-dom";
 import Home from './views/Home/Home'
 import Navbar from './components/Navbar/Navbar'
-import Apod from './views/Home/Apod/Apod';
+import Apod from './views/Apod/Apod';
+
 function App() {
   
 
@@ -14,6 +15,7 @@ function App() {
       <Header/>
       <Navbar/>
       <Routes>
+        <Route path='/' element={<Home/>}/>
         <Route path='/' element={<Home/>}/>
         <Route path='/apod' element={<Apod/>}/>
       </Routes>
