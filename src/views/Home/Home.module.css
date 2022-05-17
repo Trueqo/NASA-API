@@ -1,12 +1,12 @@
 .container{
-    width: 100%;
-    height: 100vh;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(190, 190, 190);
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
+    align-items: baseline;
 }
 
 .contInfo{
@@ -16,6 +16,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 2rem;
     
 }
 
@@ -25,7 +26,6 @@
     flex-direction: column;
     background-color: white;
     width: 70%;
-    height: 80%;
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2rem;
@@ -50,5 +50,48 @@
 
 .des{
     margin: 0;
-
 }
+
+
+
+
+/* ########### Para pantallas de 640px ############*/
+
+@media only screen and (max-width: 640px) {
+    
+    .container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+
+    .card{
+
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 70%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 2rem;
+        gap: 1rem;
+        border-radius: 10px;
+        box-shadow: -1px 2px 49px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: -1px 2px 15px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 2px 49px 0px rgba(0,0,0,0.75);
+    }
+
+
+    .contInfo{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        
+        
+    }
+
+    
+  }
