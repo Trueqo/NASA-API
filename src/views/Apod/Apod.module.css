@@ -4,5 +4,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
+    padding-bottom: 5rem;
 }
 
+
+
+/* ########### Para pantallas de 640px ############*/
+
+@media only screen and (max-width: 640px) {
+
+    .apod{
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+}

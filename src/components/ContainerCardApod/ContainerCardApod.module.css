@@ -2,8 +2,8 @@
     width: 100%;
     height: auto;
     background-color: rgb(190, 190, 190);
-    grid-column-start: 2;
-    grid-column-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
     display: flex;
     justify-content: center;
     

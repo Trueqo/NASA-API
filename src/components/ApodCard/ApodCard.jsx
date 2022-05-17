@@ -22,7 +22,7 @@ const ApodCard = () => {
     return (
         <div className={css.card}>
 
-            <h1>{data.date}</h1>
+            <h1 className={css.titlePicture}>{data.title}</h1>
             <img src={data.url} className={css.img}/>
             
             

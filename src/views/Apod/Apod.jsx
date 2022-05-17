@@ -6,9 +6,9 @@ import css from './Apod.module.css'
 const Apod = () => {
   return (
     <div className={css.apod}>
-
+      <ContainerCardApod/> 
       <ContainerCardApodLeft/>
-      <ContainerCardApod/>  
+       
 
     </div>
   )
