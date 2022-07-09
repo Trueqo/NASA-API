@@ -15,7 +15,10 @@ const Navbar = () => {
         <Link to={"/apod"}>
           <li className={css.li}>APOD</li>
         </Link>
-        <li className={css.li}>EPIC</li>
+        <Link to={"/epic"}>
+          <li className={css.li}>EPIC</li>
+        </Link>
+        
       </ul>
     </div>
   );

@@ -6,6 +6,9 @@ import Navbar from './components/Navbar/Navbar'
 import Apod from './views/Apod/Apod';
 import Rovers from './views/Rovers/Rovers';
 import Home from './views/Home/Home';
+import Test from './views/epic/Test';
+
+
 
 function App() {
   
@@ -15,9 +18,9 @@ function App() {
       <Header/>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/rovers' element={<Rovers/>}/>
+        <Route index='/' element={<Home/>}/>
         <Route path='/apod' element={<Apod/>}/>
+        <Route path='/epic' element={<Test/>}/>
       </Routes>
       <Footer/>
     </div>
