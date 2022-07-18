@@ -40,16 +40,13 @@ const Test = () => {
           <img src={data.url} className='w-[75%] h-[60%] mt-1' />
         </div>
       </div>
-      <div className="bg-violet-600 md:col-start-2 md:col-end-3"></div>
+      <div className=" md:col-start-2 md:col-end-3">
+        <div className="w-full h-full flex flex-col items-center justify-center">
+          <div className="text-2xl mb-4 font-bold text-red-500">Sobre la imagen:</div>
+          <span className=" bg-white px-[4rem]">{data.explanation}</span>
+        </div>
+      </div>
 
-      {/* <span className={CSS.titleDate}>
-          Ingresa la fecha:
-        </span>
-        <input type="date" onChange={(e) => setchangeDate(e.target.value)}
-          className={CSS.inputDate}/>
-        <h1>{data.date}</h1>
-        <h1>{data.title}</h1>
-        <img src={data.url}/> */}
     </div>
   );
 };
