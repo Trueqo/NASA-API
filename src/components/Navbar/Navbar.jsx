@@ -8,15 +8,15 @@ const Navbar = () => {
         <Link to={"/"}>
           <li className={css.li}>Home</li>
         </Link>
-        <Link to={"/rovers"}>
+        {/* <Link to={"/rovers"}>
           <li className={css.li}>Rovers</li>
         </Link>
         <li className={css.li}>Exoplanet</li>
         <Link to={"/apod"}>
           <li className={css.li}>APOD</li>
-        </Link>
+        </Link> */}
         <Link to={"/epic"}>
-          <li className={css.li}>EPIC</li>
+          <li className={css.li}>APOD</li>
         </Link>
         
       </ul>

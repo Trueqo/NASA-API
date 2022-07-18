@@ -1,6 +1,5 @@
 import './App.css'
 import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
 import { Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar'
 import Apod from './views/Apod/Apod';
@@ -14,7 +13,7 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div className="relative h-screen">
       <Header/>
       <Navbar/>
       <Routes>
@@ -22,7 +21,7 @@ function App() {
         <Route path='/apod' element={<Apod/>}/>
         <Route path='/epic' element={<Test/>}/>
       </Routes>
-      <Footer/>
+      
     </div>
   )
 }
